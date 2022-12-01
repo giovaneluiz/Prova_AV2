@@ -16,6 +16,10 @@ public class AchadoPerdido implements Publicacao {
     this.status = status;
   }
 
+  public String getTitulo() {
+    return titulo;
+  }
+
   public void completaDados(String foto, String local_achado, String dataHora) {
     this.foto = foto;
     this.localAchado = local_achado;
@@ -23,7 +27,7 @@ public class AchadoPerdido implements Publicacao {
   }
 
   @Override
-  public boolean buscarTitulo() {
+  public boolean buscarTitulo(String titulo) {
     if (this.titulo.equals(titulo)) {
       return true;
     } else {
