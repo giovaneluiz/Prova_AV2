@@ -1,8 +1,3 @@
-// Utilize os comandos JOptionPane() ou System.out.println() para solicitar os dados de uma Rede Social e assim criar o objeto.
-// Você deverá criar dois ou mais objetos do tipo Publicacao. Solicite os dados pelos comandos JOptionPane() ou System.out.println().
-// Inserir os objetos do tipo Publicacao na Rede Social
-// Chamar o imprimePublicacoes ao final
-
 package br.com.questao1;
 
 import java.util.Scanner;
